@@ -2,7 +2,16 @@ public class Persona { //Creem la class Persona que contindra diferents atributs
     private int num_dni; //Initzalitzem els valors de manera global
     private String nom;
     private String adreça;
+    private int telefon;
 
+    public int getTelefon() {
+        return telefon;
+    }
+
+    public void setTelefon(int telefon) {
+        this.telefon = telefon;
+    }
+    
     Persona(int pdni) {
         num_dni = pdni;  //dona valor a num_dni amb la variable entrada a pdni
     }
@@ -31,4 +40,5 @@ public class Persona { //Creem la class Persona que contindra diferents atributs
     public setAdreça(String padreça) {
         adreça = padreça;  //al utilitzar setadreça podrem alterar el valor de adreça  
     }
+    
 }
