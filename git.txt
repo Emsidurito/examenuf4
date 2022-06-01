@@ -1,0 +1,8 @@
+git init // Initzialitzar el projecte per crear la carpeta on es guardaran 
+            els commits que anem fent, guardant aixi les versions del projecte.
+
+git add // Afegeix els documents del projecte que guardara git
+
+git commit // Guarda el estat del projecte a la branca desitjada
+git push // Puja el projecte a github per tenir un resguard a internet.
+
